@@ -138,6 +138,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\InputValidation.hpp" />
+    <ClInclude Include="src\KeyGeneration.hpp" />
+    <ClInclude Include="src\KeyValidation.hpp" />
+    <ClInclude Include="src\SystemOutput.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\InputValidation.cpp" />
+    <ClCompile Include="src\KeyGeneration.cpp" />
+    <ClCompile Include="src\KeyValidation.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\SystemOutput.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
